@@ -1,7 +1,7 @@
 
 #CROSS_COMPILE = aarch64-none-linux-gnu- 
 # Cross-compile settings
-CROSS_COMPILE ?= aarch64-none-linux-gnu-
+#CROSS_COMPILE ?= aarch64-none-linux-gnu-
 PREFIX := $(CROSS_COMPILE)
 CC := $(PREFIX)gcc
 
